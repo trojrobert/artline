@@ -6,7 +6,7 @@ RUN  apt-get update \
   && rm -rf /var/lib/apt/lists/*
 
 
-WORKDIR /flask_app
+WORKDIR /
 COPY . .
 
 RUN wget https://www.dropbox.com/s/04suaimdpru76h3/ArtLine_920.pkl?dl=1 
