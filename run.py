@@ -80,4 +80,4 @@ def predict_image():
         p_image_path=pred_path, q_image_path=query_path)
    
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0")
